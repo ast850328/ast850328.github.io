@@ -1,0 +1,273 @@
+doctype html
+html(lang='en')
+
+    head
+
+        meta(charset='utf-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+        meta(name='description', content='')
+        meta(name='author', content='')
+
+        title SafeFly
+
+        link(rel='icon', type='image/x-icon', href='assets/img/favicon.ico')
+
+        // Font Awesome icons (free version)
+        script(src='https://use.fontawesome.com/releases/v5.15.4/js/all.js', crossorigin='anonymous')
+
+        // Google fonts
+        link(href='https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700', rel='stylesheet', type='text/css')
+        link(href='https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i', rel='stylesheet', type='text/css')
+
+        // Core theme CSS (includes Bootstrap)
+        link(href='css/styles.css', rel='stylesheet')
+
+    body#page-top
+
+        // Navigation
+        nav#sideNav.navbar.navbar-expand-lg.navbar-dark.bg-primary.fixed-top
+            a.navbar-brand.js-scroll-trigger(href='#page-top')
+                span.d-block.d-lg-none SafeFly
+                span.d-none.d-lg-block
+                    img.img-fluid.img-profile.rounded-circle.mx-auto.mb-2(src='assets/img/profile.jpg', alt='...')
+            button.navbar-toggler(type='button', data-bs-toggle='collapse', data-bs-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Toggle navigation')
+                span.navbar-toggler-icon
+            #navbarResponsive.collapse.navbar-collapse
+                ul.navbar-nav
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#about') About
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#experience') Experience
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#education') Education
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#skills') Skills
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#interests') Interests
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#portfolio') Portfolio
+
+        // Page Content
+        .container-fluid.p-0
+
+            // About
+            section#about.resume-section
+                .resume-section-content
+                    h1.mb-0
+                        |Safe
+                        span.text-primary Fly
+                    .subheading.mb-5
+                        | IT Engineer in TSMC ·
+                        a(href='mailto:ast850328@gmail.com') ast850328@gmail.com
+                        | ·
+                        a(href='https://u.pcloud.link/publink/show?code=XZ2wooXZ2e6vhke1HR7wcpQxVpmilklmYday' target='_blank') Resume
+                    p.lead.mb-5
+                        | A software developer with three-year working experience. Focus on back-end development with Java or Node.js. Interested in new techniques and open source. Willing to share ideas and knowledge and discuss with teammates. Welcome to my place!
+                    .social-icons
+                        a.social-icon(href='https://www.linkedin.com/in/safefly/' target='_blank')
+                            i.fab.fa-linkedin-in
+                        a.social-icon(href='https://github.com/ast850328' target='_blank')
+                            i.fab.fa-github
+                        a.social-icon(href='https://t.me/safefly_Tsai' target='_blank')
+                            i.fab.fa-telegram
+                        a.social-icon(href='https://www.facebook.com/SafeFlyTW' target='_blank')
+                            i.fab.fa-facebook-f
+
+            hr.m-0
+
+            // Experience
+            section#experience.resume-section
+               .resume-section-content
+                    h2.mb-5 Experience
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 IT Engineer
+                            .subheading.mb-3 Taiwan Semiconductor Manufacturing Co.
+                            p
+                                | Develop desktop Application with C# and .NET, back-end service with Java and Spring Boot, setup CI/CD pipelines with Azure CI/CD to automatically test, build and deploy to Kubernetes with ArgoCD and Helm Chart. Learning Kotlin and Quarkus now.
+                            p
+                                | Skills: C#, .NET, Java, Spring Boot, Azure CI/CD,  Kubernetes, ArgoCD, Helm Chart, Kotlin, Quarkus
+                        .flex-shrink-0
+                            span.text-primary Oct 2020 - Present
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 System Developer(part-time)
+                            .subheading.mb-3 Imonology
+                            p
+                                | Develop projects with NodeJS and MongoDB.
+                            p
+                                | Skills: NodeJS, MongoDB
+                        .flex-shrink-0
+                            span.text-primary Sep 2018 - Feb 2019
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 System Developer(intern)
+                            .subheading.mb-3 Delta Electronics, Inc.
+                            p
+                                | Develop back-end system(Abbreviations Searching System) with Python and Flask. Data preprocessing for deep learning.
+                            p
+                                | Skills: Python, Flask
+                        .flex-shrink-0
+                            span.text-primary Apr 2018 - Aug 2018
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between
+                        .flex-grow-1
+                            h3.mb-0 System Developer(part-time)
+                            .subheading.mb-3  University Entrance Committee for Overseas Chinese Students
+                            p
+                                | Develop new systems, front-end mainly.
+                            p
+                                | Skills: jQuery, PHP, Laraval
+                        .flex-shrink-0
+                            span.text-primary Jun 2017 - Jan 2018
+
+            hr.m-0
+
+            // Education
+            section#education.resume-section
+                .resume-section-content
+                    h2.mb-5 Education
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 M.B.A. in Information Management
+                            .subheading.mb-3 National Central University
+                            div Intelligence Process Technology Lab
+                        .flex-shrink-0
+                            span.text-primary Jun 2020
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between
+                        .flex-grow-1
+                            h3.mb-0 B.B.A. in Information Management
+                            .subheading.mb-3 National Chi Nan University
+                            div GPA: 3.93
+                            div The Phi Tau Phi Scholastic Honor Society of the Republic of China
+                        .flex-shrink-0
+                            span.text-primary Jun 2018
+
+            hr.m-0
+
+            // Skills
+            section#skills.resume-section
+                .resume-section-content
+                    h2.mb-5 Skills
+                    .subheading.mb-3 Programming Languages & Frameworks
+                    span.badge.rounded-pill.bg-primary Front-end
+                    ul.fa-ul.mb-0
+                        li
+                            span.fa-li
+                                i.fas.fa-angle-right
+                            | JavaScript ES6
+                        li
+                            span.fa-li
+                                i.fas.fa-angle-right
+                            | React
+                    span.badge.rounded-pill.bg-primary Back-end
+                    ul.fa-ul.mb-0
+                        li
+                            span.fa-li
+                                i.fas.fa-angle-right
+                            | Java, Kotlin with Spring Boot or Quarkus
+                        li
+                            span.fa-li
+                                i.fas.fa-angle-right
+                            | Node.js with Express
+                        li
+                            span.fa-li
+                                i.fas.fa-angle-right
+                            | Python with Flask
+                        li
+                            span.fa-li
+                                i.fas.fa-angle-right
+                            | RESTful API Design
+                        li
+                            span.fa-li
+                                i.fas.fa-angle-right
+                            | MariaDB and MongoDB
+                    span.badge.rounded-pill.bg-primary Others
+                    ul.fa-ul.mb-0
+                        li
+                            span.fa-li
+                                i.fas.fa-angle-right
+                            | C# and .NET(GUI)
+                    .subheading.mb-3 Workflow
+                    ul.fa-ul.mb-0
+                        li
+                            span.fa-li
+                                i.fas.fa-check
+                            | Azure CI/CD, GitHub Actions
+                        li
+                            span.fa-li
+                                i.fas.fa-check
+                            | Docker and Kubernetes
+                        li
+                            span.fa-li
+                                i.fas.fa-check
+                            | Git/GitHub Workflow
+                        li
+                            span.fa-li
+                                i.fas.fa-check
+                            | Responsive Design
+                        li
+                            span.fa-li
+                                i.fas.fa-check
+                            | Agile Development & Scrum
+
+            hr.m-0
+
+            // Interests
+            section#interests.resume-section
+                .resume-section-content
+                    h2.mb-5 Interests
+                    ul.fa-ul.mb-0
+                        li
+                            span.fa-li
+                                i.fas.fa-star.text-warning
+                            | Movies
+                        li
+                            span.fa-li
+                                i.fas.fa-star.text-warning
+                            | Singing
+                        li
+                            span.fa-li
+                                i.fas.fa-star.text-warning
+                            | Dancing
+                        li
+                            span.fa-li
+                                i.fas.fa-star.text-warning
+                            | Traveling
+
+            hr.m-0
+
+            // Portfolio
+            section#portfolio.resume-section
+                .resume-section-content
+                    h2.mb-5 Portfolio
+                    ul.fa-ul.mb-0
+                        li
+                            span.fa-li
+                                i.fas.fa-trophy.text-warning
+                            | Taiwan Ebook Search
+                            a.social-icon(href='https://taiwan-ebook-lover.github.io/' target='_blank')
+                                i.fas.fa-link.text-primary
+                        li
+                            span.fa-li
+                                i.fas.fa-trophy.text-warning
+                            | KKFinder(Chrome Extenstion)
+                            a.social-icon(href='https://github.com/ast850328/KKFinder' target='_blank')
+                                i.fas.fa-link.text-primary
+                        li
+                            span.fa-li
+                                i.fas.fa-trophy.text-warning
+                            | ToDoList-ReactNative
+                            a.social-icon(href='https://github.com/ast850328/ToDoList-RN' target='_blank')
+                                i.fas.fa-link.text-primary
+
+        // Bootstrap core JS
+        script(src='https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js')
+
+        // Core theme JS
+        script(src='js/scripts.js')
